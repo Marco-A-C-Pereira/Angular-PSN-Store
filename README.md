@@ -1,27 +1,13 @@
-# PSNAngular
+# PSNAngular - Uma réplica do website da PSN-Store realizado em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+## Progresso:
 
-## Development server
+- ✅ Dumb Components 
+- ✅ Dynamic Components (Local)
+- ❌ Dynamic Components (Local JSON Server)
+- ❌ Buscar uma API para os jogos da PSN
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Issues:
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Formatação das tags( Criar uma pipe para transformar "," em "|" )
+- Overflow nas tags desconfigurando a parte inferior do card
