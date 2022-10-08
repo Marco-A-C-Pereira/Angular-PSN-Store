@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-label-tag',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-label-tag.component.css']
 })
 export class CardLabelTagComponent implements OnInit {
+
+  @Input()label:string = "";
 
   constructor() { }
 

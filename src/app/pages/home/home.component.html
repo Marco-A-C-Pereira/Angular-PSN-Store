@@ -1,3 +1,9 @@
 <div class="home__container">
-  <app-card-main></app-card-main>
+  <article
+  *ngFor="let game of gameList"
+  >
+    <app-card-main
+    [game] = "game"
+    ></app-card-main>
+  </article>
 </div>

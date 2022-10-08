@@ -21,14 +21,13 @@
 
 .card-label-pricing__tags{
   display: flex;
+  white-space: nowrap;
 }
 
 .card-label-pricing__tags > span {
   color: aqua;
   font-weight: bold;
   margin-right: 5px;
-}
-
-.card-label-pricing__value{
 
 }
+

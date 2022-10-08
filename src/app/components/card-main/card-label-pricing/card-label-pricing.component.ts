@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-label-pricing',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-label-pricing.component.css']
 })
 export class CardLabelPricingComponent implements OnInit {
+
+  @Input()gamePrice:number = 0;
+  @Input()gameTags:string[] = [];
 
   constructor() { }
 
