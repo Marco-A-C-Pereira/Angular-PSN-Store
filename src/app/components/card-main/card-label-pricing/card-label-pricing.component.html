@@ -3,7 +3,7 @@
     <h3>Play it Now !</h3>
     <div class="card-label-pricing__tags">
       <span>|</span>
-      <p> {{ gameTags }} </p>
+      <p> {{ gameTags | replacerArr: ' | '}} </p>
     </div>
   </div>
   <div class="card-label-pricing__value">

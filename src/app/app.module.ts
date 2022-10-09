@@ -7,6 +7,7 @@ import { CardMainComponent } from './components/card-main/card-main.component';
 import { CardLabelPricingComponent } from './components/card-main/card-label-pricing/card-label-pricing.component';
 import { CardLabelTagComponent } from './components/card-main/card-label-tag/card-label-tag.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ReplacerArrPipe } from './pipes/replacer-arr.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HomeComponent } from './pages/home/home.component';
     CardMainComponent,
     CardLabelPricingComponent,
     CardLabelTagComponent,
-    HomeComponent
+    HomeComponent,
+    ReplacerArrPipe
   ],
   imports: [
     BrowserModule

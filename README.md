@@ -9,5 +9,5 @@
 
 ### Issues:
 
-- Formatação das tags( Criar uma pipe para transformar "," em "|" )
-- Overflow nas tags desconfigurando a parte inferior do card
+- ✅ Formatação das tags( Criar uma pipe para transformar "," em "|" )
+- ❌ Overflow nas tags desconfigurando a parte inferior do card
